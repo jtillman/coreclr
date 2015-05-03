@@ -54,7 +54,7 @@ To build the runtime on Linux, run build.sh from the root of the coreclr reposit
 ellismg@linux:~/git/coreclr$ ./build.sh
 ```
 
-After the build is completed, there should some files placed in `bin/Product/Linux.x64.Debug`.  The ones we are interested in are:
+After the build is completed, there should be some files placed in `bin/Product/Linux.x64.Debug`.  The ones we are interested in are:
 
 * `corerun`: The command line host.  This program loads and starts the CoreCLR runtime and passes the managed program you want to run to it.
 * `libcoreclr.so`: The CoreCLR runtime itself.
